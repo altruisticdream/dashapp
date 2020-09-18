@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1023612950771",
+    "firebase_url": "https://dashapp-ce952.firebaseio.com",
+    "project_id": "dashapp-ce952",
+    "storage_bucket": "dashapp-ce952.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023612950771:android:a393e246663a9a59927f86",
+        "android_client_info": {
+          "package_name": "com.example.dashapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023612950771-9rlrk0uoe8p5ra0isev32lkl72mldcjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_wpzl-JLKZZUYbF-hG8hHcU9pALD9oXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023612950771-9rlrk0uoe8p5ra0isev32lkl72mldcjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

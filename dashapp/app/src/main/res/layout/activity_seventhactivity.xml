@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uibackground"
+
+    tools:context=".seventhactivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="113dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="151dp">
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="83dp"
+                android:paddingLeft="50dp"
+                android:textColor="#123456"
+                android:text="King George Medical University"
+                android:textSize="25dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="113dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="151dp">
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="83dp"
+                android:paddingLeft="50dp"
+                android:text="AIIMS"
+                android:textColor="#123456"
+                android:textSize="25dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="113dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="151dp">
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="83dp"
+                android:paddingLeft="50dp"
+                android:textColor="#123456"
+                android:text="AJANTA HOSPITAL"
+                android:textSize="25dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="113dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="151dp">
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="83dp"
+                android:paddingLeft="50dp"
+                android:textColor="#123456"
+                android:text="APOLLO MEDICS HOSPITAL"
+                android:textSize="25dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="113dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="151dp">
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="83dp"
+                android:paddingLeft="50dp"
+                android:textColor="#123456"
+                android:text="MEDANTA HOSPITAL"
+                android:textSize="25dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="113dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="151dp">
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="83dp"
+                android:paddingLeft="50dp"
+                android:textColor="#123456"
+                android:text="King George Medical University"
+                android:textSize="25dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="113dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="151dp">
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="83dp"
+                android:paddingLeft="50dp"
+                android:textColor="#123456"
+                android:text="SKD HOSPITAL"
+                android:textSize="25dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="113dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="151dp">
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="83dp"
+                android:paddingLeft="50dp"
+                android:textColor="#123456"
+                android:text="SUN EYE HOSPITAL"
+                android:textSize="25dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+</ScrollView>
