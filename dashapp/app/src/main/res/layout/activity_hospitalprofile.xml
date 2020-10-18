@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".hospitalprofile">
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="856dp"
+        android:gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            app:cardCornerRadius="35dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="628dp">
+
+                <ImageView
+                    android:layout_width="409dp"
+                    android:layout_height="177dp"
+                    android:src="@drawable/kgmc">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="371dp"
+                    android:layout_height="36dp"
+                    android:text="King George Medical University"
+                    android:textColor="#123456"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.744"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.314" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="77dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Call "
+                    android:textColor="#123456"
+                    android:textSize="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.207"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.447" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="110dp"
+                    android:layout_height="34dp"
+                    android:layout_marginBottom="328dp"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Direction"
+                    android:textColor="#123456"
+                    android:textSize="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.628"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="160dp"
+                    android:text="Lucknow , Uttar Pradesh"
+                    android:textColor="#123456"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.369" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="268dp"
+                    android:text="Photos"
+                    android:textColor="#123456"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.094"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="390dp"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                app:cardBackgroundColor="#e6f5fc"
+                                app:cardCornerRadius="25dp"></androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="17dp"
+                                app:cardBackgroundColor="#e6f5fc"
+                                app:cardCornerRadius="25dp"></androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="17dp"
+                                app:cardBackgroundColor="#e6f5fc"
+                                app:cardCornerRadius="25dp"></androidx.cardview.widget.CardView>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/buttontakeappointment"
+                    android:layout_width="264dp"
+                    android:layout_height="58dp"
+                    android:layout_marginEnd="72dp"
+                    android:background="@drawable/gardient_background"
+                    android:text="Take Appointment"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.951" />
+
+                <ImageView
+                    android:id="@+id/indo"
+                    android:layout_width="55dp"
+                    android:layout_height="35dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="336dp"
+                    android:src="@drawable/ic_baseline_phone_24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.448" />
+
+                <ImageView
+                    android:id="@+id/indoo"
+                    android:layout_width="55dp"
+                    android:layout_height="35dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="212dp"
+                    android:src="@drawable/ic_baseline_directions_24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.448" />
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
